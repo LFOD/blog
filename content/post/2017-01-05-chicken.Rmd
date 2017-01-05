@@ -4,7 +4,8 @@ title: "Chicken"
 ---
 
 even better
+
 ```{r}
-require(cowsay)
+library(cowsay)
 say("HIII",by = "chicken")
 ```

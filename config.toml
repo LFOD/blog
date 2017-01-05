@@ -2,7 +2,7 @@ baseurl = "/"
 relativeurls = true
 languageCode = "en-us"
 title = "Live Free or Dichotomize"
-theme = "hugo-lithium-theme"
+theme = "hugo-theme-casper"
 googleAnalytics = ""
 disqusShortname = ""
 publishDir = "docs"
@@ -26,10 +26,5 @@ publishDir = "docs"
 
 [params]
     description = "A statistics blog from two great Phd students."
-
-    [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 50
-    alt = "Logo"
-
+    logo = "images/logo.png"
+   
