@@ -1,7 +1,7 @@
 ---
 date: 2016-12-24T21:13:14-05:00
 title: "Wait, What are P-Values?"
-author: "[Nick Strayer](https://twitter.com/NicholasStrayer)"
+author: "Nick"
 categories: ["R", "Statistics"]
 ---
 
