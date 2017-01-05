@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "http://lfod.github.io/blog/"
 relativeurls = true
 languageCode = "en-us"
 title = "Live Free or Dichotomize"

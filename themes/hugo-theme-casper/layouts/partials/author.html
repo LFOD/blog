@@ -9,7 +9,7 @@
 {{$authorthumbnail := or $author.thumbnail .Site.Params.author_thumbnail }}
 <div class="post-author">
 
-    <img src="{{ $authorthumbnail }}" alt="{{ $authorname }} image" width="90" height="90">
+    <img style = "border-radius: 25px;" src="{{ $authorthumbnail }}" alt="{{ $authorname }} image" width="90" height="90">
     <br>
     <span style="font-size: 1.02em;font-weight: bold;">
         {{$authorname}}
