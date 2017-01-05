@@ -9,6 +9,7 @@
     <footer class="post-meta">
         {{$author:= .Site.Params.author}}
         {{if .Params.author }}
+            <p> Hey we have an author</p>
             {{$author:= .Params.author}}
             {{if isset .Site.Data.authors $author}}
                 {{$author := index .Site.Data.authors .Params.author }}
