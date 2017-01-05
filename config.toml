@@ -2,7 +2,7 @@ baseurl = "/"
 relativeurls = true
 languageCode = "en-us"
 title = "Live Free or Dichotomize"
-theme = "hugo-lithium-theme"
+theme = "hugo-theme-casper"
 googleAnalytics = ""
 disqusShortname = ""
 publishDir = "docs"
@@ -16,16 +16,14 @@ publishDir = "docs"
     url = "/about/"
 [[menu.main]]
     name = "GitHub"
-    url = "https://github.com/rstudio/blogdown"
+    url = "https://github.com/LFOD/blog"
 [[menu.main]]
-    name = "Twitter"
-    url = "https://twitter.com/rstudio"
+    name = "Lucy"
+    url = "https://twitter.com/lucystats"
+[[menu.main]]
+    name = "Nick"
+    url = "https://twitter.com/nicholasstrayer"
 
 [params]
     description = "A statistics blog from two great Phd students."
-
-    [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 50
-    alt = "Logo"
+    logo = "images/logo.png"

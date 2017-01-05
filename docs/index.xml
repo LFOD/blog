@@ -20,9 +20,8 @@
 /BLOGDOWN-BODY-BEFORE --&gt;
 
 &lt;p&gt;even better&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;require(cowsay)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Loading required package: cowsay&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;say(&amp;quot;HIII&amp;quot;,by = &amp;quot;chicken&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(cowsay)
+say(&amp;quot;HIII&amp;quot;,by = &amp;quot;chicken&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## 
 ## 
 ##  ----- 

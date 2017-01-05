@@ -5,7 +5,8 @@ author: "Lucy D'Agostino McGowan"
 ---
 
 even better
+
 ```{r}
-require(cowsay)
+library(cowsay)
 say("HIII",by = "chicken")
 ```
