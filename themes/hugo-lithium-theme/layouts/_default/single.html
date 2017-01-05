@@ -16,6 +16,7 @@
     <div class="article-content">
       {{ .Content }}
     </div>
+    {{ partial "authors.html" . }}
   </article>
 
   {{ template "_internal/disqus.html" . }}
