@@ -27,4 +27,3 @@ publishDir = "docs"
 [params]
     description = "A statistics blog from two great Phd students."
     logo = "images/logo.png"
-   
