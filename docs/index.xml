@@ -15,7 +15,18 @@
       <pubDate>Thu, 05 Jan 2017 11:13:23 -0600</pubDate>
       
       <guid>/2017/01/05/chicken/</guid>
-      <description>&lt;!-- BLOGDOWN-BODY-BEFORE
+      <description>---
+date: 2017-01-05T11:13:23-06:00
+title: &#34;Chicken&#34;
+---
+
+---
+date: 2017-01-05T11:13:23-06:00
+title: &#34;Chicken&#34;
+---
+
+
+&lt;!-- BLOGDOWN-BODY-BEFORE
 
 /BLOGDOWN-BODY-BEFORE --&gt;
 

@@ -16,10 +16,13 @@ publishDir = "docs"
     url = "/about/"
 [[menu.main]]
     name = "GitHub"
-    url = "https://github.com/rstudio/blogdown"
+    url = "https://github.com/LFOD/blog"
 [[menu.main]]
-    name = "Twitter"
-    url = "https://twitter.com/rstudio"
+    name = "Lucy"
+    url = "https://twitter.com/lucystats"
+[[menu.main]]
+    name = "Nick"
+    url = "https://twitter.com/nicholasstrayer"
 
 [params]
     description = "A statistics blog from two great Phd students."

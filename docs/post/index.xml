@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Post-rsses on Live Free or Dichotomize</title>
+    <title>Posts on Live Free or Dichotomize</title>
     <link>/post/index.xml</link>
-    <description>Recent content in Post-rsses on Live Free or Dichotomize</description>
+    <description>Recent content in Posts on Live Free or Dichotomize</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 05 Jan 2017 11:13:23 -0600</lastBuildDate>
@@ -15,7 +15,18 @@
       <pubDate>Thu, 05 Jan 2017 11:13:23 -0600</pubDate>
       
       <guid>/2017/01/05/chicken/</guid>
-      <description>&lt;!-- BLOGDOWN-BODY-BEFORE
+      <description>---
+date: 2017-01-05T11:13:23-06:00
+title: &#34;Chicken&#34;
+---
+
+---
+date: 2017-01-05T11:13:23-06:00
+title: &#34;Chicken&#34;
+---
+
+
+&lt;!-- BLOGDOWN-BODY-BEFORE
 
 /BLOGDOWN-BODY-BEFORE --&gt;
 
