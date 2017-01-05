@@ -1,13 +1,20 @@
 ---
 date: 2017-01-05T11:13:23-06:00
-title: "Chicken"
+title: "Chickens"
 author: "Lucy D'Agostino McGowan"
 summary: "Ever wanted to make a chicken talk? Now you can."
 ---
 
-even better
+Look at all those chickens.
 
 ```{r}
 library(cowsay)
-say("HIII",by = "chicken")
+say("If you were a chicken you'd be impeccable.",by = "chicken")
 ```
+
+***
+
+<center>
+![](http://i.imgur.com/R6QsDRw.gif) 
+
+</center>

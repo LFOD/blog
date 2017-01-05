@@ -1,0 +1,103 @@
+---
+author: "Lucy D'Agostino McGowan"
+comments: true
+date: 2016-12-21T15:55:00-06:00
+draft: false
+image: ""
+menu: ""
+share: true
+slug: post-title
+title: "Comps Survival Guide"
+summary: "Flashcards & comics for your studying pleasure."
+
+---
+
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+
+*These are some tools I put together while studying for first year comprehensive exams. Since I spent many a late night on them, I am hoping someone else can make use of them. Below are flashcards, practice exams, and some goofy ways to memorize theorems, but first, an xkcd comic..*
+
+<br>
+
+<center>
+
+<a href="http://xkcd.com/1236/" target="_blank">
+  <img src="http://imgs.xkcd.com/comics/seashell.png" alt="correlation">
+</a>
+
+</center>
+
+and now one of my own...
+
+<center>
+<img src="https://raw.githubusercontent.com/LucyMcGowan/comps-survival-guide/master/basu.png">
+</center>
+
+<center>
+<span style="color:#EB6864; font-size: 20pt">[**Biostatistics Comps**: a Vanderbilt student's study tools]</span></center>
+
+
+### flashcards
+
+* I have created a pdf of over 200 flash cards that cover foundations of statistical inference and fundamentals of probability, print double-sided & cut ✁ them out for a fun evening of studying bliss! [[view here](https://docs.google.com/viewer?url=https://github.com/LucyMcGowan/comps-survival-guide/raw/master/FlashCards.pdf), [download here](https://github.com/LucyMcGowan/comps-survival-guide/raw/master/FlashCards.pdf)]
+* These are hosted on  [github](https://github.com/LucyMcGowan/comps-survival-guide/blob/master/FlashCards.tex) -- please add to them!
+* If you notice a mistake, please submit a PR & fix it 🙏🏼 
+
+### practice exams
+
+* [Vanderbilt University](http://www.vanderbilt.edu/biostatistics/graduate/current-program/comprehensive-examinations/sample-exams/)
+* [Univesity of New Mexico](http://www.math.unm.edu/stat/exams/index.php)
+* [Villanova](http://www07.homepage.villanova.edu/michael.posner/comp.htm)
+* [Indiana University](http://math.iupui.edu/node/5951)
+* [Faber College](https://www.youtube.com/watch?v=rS00xWnqwvI)
+* [University of Massachussetts](https://www.math.umass.edu/graduate/sample-qualifying-exams)
+* [Carnegie Mellon University](https://www.stat.cmu.edu/Exams/phdstat.html)
+* [University of Washington](http://www-old.biostat.washington.edu/grad/qualexams)
+
+### theoretically hilarious
+
+*these may or may not help you memorize some theorems -- to find out, click on the theorem below*
+
+
+* <a id="show_image">Lehmann-Scheffe</a>
+<img id="my_images" style="display:none;" src="https://raw.githubusercontent.com/LucyMcGowan/comps-survival-guide/master/lehmann-scheffe.png">
+
+* <a id="show_image2">Basu</a>
+<img id="my_images2" style="display:none;" src="https://raw.githubusercontent.com/LucyMcGowan/comps-survival-guide/master/basu.png">
+
+* <a id="show_image3">Jensen's</a>
+<img id="my_images3" style="display:none;" src="https://raw.githubusercontent.com/LucyMcGowan/comps-survival-guide/master/Jensen.png">
+
+* <a id="show_image4">Slutsky's</a>
+<img id="my_images4" style="display:none;" src="https://raw.githubusercontent.com/LucyMcGowan/comps-survival-guide/master/slutskys.png">
+
+* <a id="show_image5">Karlin-Rubin</a>
+<img id="my_images5" style="display:none;" src="https://raw.githubusercontent.com/LucyMcGowan/comps-survival-guide/master/karlin-rubin.png">
+
+* <a id="show_image6">LR Under True Model</a>
+<img id="my_images6" style="display:none;" src="https://raw.githubusercontent.com/LucyMcGowan/comps-survival-guide/master/LR-under-true-model.png">
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+   $(document).ready(function(){
+      $('#show_image').on("click", function(){
+         $('#my_images').toggle();
+      });
+      $('#show_image2').on("click", function(){
+         $('#my_images2').toggle();
+      });
+      $('#show_image3').on("click", function(){
+         $('#my_images3').toggle();
+      });
+      $('#show_image4').on("click", function(){
+         $('#my_images4').toggle();
+      });
+      $('#show_image5').on("click", function(){
+         $('#my_images5').toggle();
+      });
+      $('#show_image6').on("click", function(){
+         $('#my_images6').toggle();
+      });
+   });
+</script>
