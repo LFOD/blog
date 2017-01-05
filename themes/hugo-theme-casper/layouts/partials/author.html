@@ -2,18 +2,18 @@
 {{$author := index .Site.Data.authors (or .Params.author .Site.Params.author)}}
 {{$authorname := or $author.name .Site.Params.author }}
 {{$authorbio := or $author.bio .Site.Params.bio }}
-{{$authorlocation := or $author.location .Site.Params.authorlocation }}
-{{$authorwebsite := or $author.website .Site.Params.authorwebsite }}
-<section class="author">
-  <h4><a href="{{.Site.BaseURL}}">{{$authorname}}</a></h4>
-  {{if $authorbio}}
-  <p>{{$authorbio}}</p>
-  {{else}}
-  <p>Read <a href="{{.Site.BaseURL}}">more posts</a> by this author.</p>
-  {{end}}
-  <div class="author-meta">
-    {{with $authorlocation}}<span class="author-location icon-location">{{.}}</span>{{end}}
-    {{with $authorwebsite}}<span class="author-link icon-link"><a href="{{.}}">{{.}}</a></span>{{end}}
-  </div>
-</section>
+{{$authorlocation := or $author.location .Site.Params.author_location }}
+{{$authorwebsite := or $author.website .Site.Params.author_website }}
+{{$authorthumbnail := or $author.thumbnail .Site.Params.author_thumbnail }}
+<div class="post-author">
+    <h6>Written By</h6>
+    <hr>
+    <img src="{{ $authorthumbnail }}" alt="{{ $authorname }} image" width="90" height="90">
+    <h5>{{$authorname}}</h5>
+    {{if $authorbio}}
+    <span class="post-author__text">{{$authorbio}}</span>
+    {{else}}
+    <span class="post-author__text">Read <a href="{{.Site.BaseURL}}">more posts</a> by this author.</span>
+    {{end}}
+</div>
 {{end}}
