@@ -1,0 +1,10 @@
+---
+date: 2017-01-05T11:13:23-06:00
+title: "Chicken"
+---
+
+even better
+```{r}
+require(cowsay)
+say("HIII",by = "chicken")
+```
