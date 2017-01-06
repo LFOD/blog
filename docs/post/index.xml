@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Post-rsses on Live Free or Dichotomize</title>
+    <title>Posts on Live Free or Dichotomize</title>
     <link>/post/index.xml</link>
-    <description>Recent content in Post-rsses on Live Free or Dichotomize</description>
+    <description>Recent content in Posts on Live Free or Dichotomize</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 05 Jan 2017 11:13:23 -0600</lastBuildDate>
@@ -371,7 +371,21 @@ plot_flips &amp;lt;- function(flip_data){
       <pubDate>Tue, 20 Dec 2016 16:01:34 -0600</pubDate>
       
       <guid>/2016/12/20/post-title/</guid>
-      <description>&lt;!-- BLOGDOWN-BODY-BEFORE
+      <description>---
+author: &#34;Lucy D&#39;Agostino McGowan&#34;
+comments: true
+date: 2016-12-20T16:01:34-06:00
+draft: false
+image: &#34;&#34;
+menu: &#34;&#34;
+share: true
+slug: post-title
+title: &#34;NHTSA Saftey Analysis&#34;
+summary: &#34;Flashcards &amp; comics for your studying pleasure.&#34;
+---
+
+
+&lt;!-- BLOGDOWN-BODY-BEFORE
 
 /BLOGDOWN-BODY-BEFORE --&gt;
 
