@@ -1,17 +1,12 @@
 ---
-author: "Lucy D'Agostino McGowan"
-comments: true
-date: 2016-12-20T16:01:34-06:00
-draft: false
-image: ""
-menu: ""
-share: true
-slug: post-title
+date: 2016-12-20T21:13:14-05:00
 title: "NHTSA Saftey Analysis"
-summary: "Flashcards & comics for your studying pleasure."
+author: "Lucy D'Agostino McGowan"
+categories: ["R", "Statistics"]
+summary: "An analysis of car crash data, inspired by Rodger Peng."
+params:
+  AuthorName: "Lucy"
 ---
-
-
 
 *Not So Standard Deviations is currently my writing muse (see [my inspiration](http://www.lucymcgowan.com/hill-for-data-scientists.html) from their [28th Episode](https://soundcloud.com/nssd-podcast/episode-28-writing-is-a-lot-harder-than-just-talking)). This week, Roger Peng was discussing traffic data ([listen here](https://soundcloud.com/nssd-podcast/episode-29-standards-are-like-toothbrushes)), inspiring me to solicit some input on a weird result my colleague Ryan and I found this summer.*
 
